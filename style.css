@@ -1,0 +1,58 @@
+body.night-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content .close-button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+#rvtools-data-display tr.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#cart-items-body tr.duplicate {
+  background-color: #ffcccc !important;
+}
